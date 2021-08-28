@@ -406,7 +406,14 @@ img {
   height: max-content;
   margin-bottom: var(--mb-2-5);
 }
-.front {
+
+#front {
+  display: none;
+}
+#back {
+  display: none;
+}
+#db {
   display: none;
 }
 

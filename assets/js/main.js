@@ -132,11 +132,14 @@ sr.reveal(".work__img", { interval: 200 });
 /*SCROLL CONTACT*/
 sr.reveal(".contact__input", { interval: 200 });
 
-$("#sk1").click(function () {
-  $(".skills__arrow").hide(500);
-  //   $(".Show").hide(0);
-  $(".front").show(0);
-});
-// $(".skills__arrow").click(function () {
-//   $(".one").toggle("slow");
-// });
+function showHideDiv(ele) {
+  var srcElement = document.getElementById(ele);
+  if (srcElement != null) {
+    if (srcElement.style.display == "none") {
+      srcElement.style.display = "block";
+    } else {
+      srcElement.style.display = "none";
+    }
+    return false;
+  }
+}
