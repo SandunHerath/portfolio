@@ -322,6 +322,9 @@ img {
   width: 200px;
   border-radius: 0.5rem;
 }
+.about__text {
+  margin-bottom: var(--mb-4);
+}
 
 /* ===== SKILLS =====*/
 .skills__container {
@@ -373,10 +376,38 @@ img {
   width: 65%;
 }
 .skills__ux {
-  width: 85%;
+  width: 75%;
+}
+.skills__vue {
+  width: 90%;
 }
 .skills__img {
   border-radius: 0.5rem;
+}
+.skills_header {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-2-5);
+  cursor: pointer;
+}
+.skills__arrow {
+  font-size: 2rem;
+  color: var(--first-color);
+  margin-left: auto;
+  transition: 0.4s;
+}
+
+/* .skills__open .skills__close {
+  height: 0;
+  overflow: hidden;
+} */
+
+.skills__open .skills__list {
+  height: max-content;
+  margin-bottom: var(--mb-2-5);
+}
+.front {
+  display: none;
 }
 
 /* ===== WORK =====*/
