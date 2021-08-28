@@ -143,3 +143,24 @@ function showHideDiv(ele) {
     return false;
   }
 }
+
+// var show = function (t) {
+//     t.style.display = "block";
+//   },
+//   hide = function (t) {
+//     t.style.display = "none";
+//   },
+//   toggle = function (t) {
+//     "block" !== window.getComputedStyle(t).display ? show(t) : hide(t);
+//   };
+// document.addEventListener(
+//   "click",
+//   function (t) {
+//     if (t.target.classList.contains("toggle")) {
+//       t.preventDefault();
+//       var e = document.querySelector(t.target.hash);
+//       e && toggle(e);
+//     }
+//   },
+//   !1
+// );
