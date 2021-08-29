@@ -242,7 +242,7 @@
                   <div class="skills__list">
                     <div class="skills__data">
                       <div class="skills__names">
-                       <i class="uil uil-server"></i>
+                        <i class="uil uil-server"></i>
                         <span class="skills__name">Laravel</span>
                       </div>
                       <div class="skills__bar skills__laravel"></div>
@@ -252,7 +252,7 @@
                     </div>
                     <div class="skills__data">
                       <div class="skills__names">
-                       <i class="uil uil-server"></i>
+                        <i class="uil uil-server"></i>
                         <span class="skills__name">NodeJS</span>
                       </div>
                       <div class="skills__bar skills__node"></div>
@@ -276,7 +276,6 @@
                   class="uil uil-angle-double-down skills__arrow"
                   onClick="showHideDiv('db')"
                 ></i>
-                <button class="toggle"></button>
               </div>
               <div id="db" style="display: none">
                 <div>
@@ -339,27 +338,76 @@
         </div>
       </section>
 
-      <!--===== CONTACT =====-->
-      <section class="contact section" id="contact">
+      <!-- contact new -->
+      <!-- contact -->
+      <section id="contact">
         <h2 class="section-title">Contact</h2>
+        <div class="contact__container">
+          <div class="contact-box">
+            <div class="contact-info">
+              <h3 class="title">Get in touch</h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                rerum odio incidunt doslorum officia dolorem eaque aprim?
+              </p>
+              <div class="information-wrap">
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="uil uil-map-marker"></i>
+                  </div>
+                  <p class="info-text">No 255 Narammala Road Alawwa</p>
+                </div>
 
-        <div class="contact__container bd-grid">
-          <form action="" class="contact__form">
-            <input type="text" placeholder="Name" class="contact__input" />
-            <input type="mail" placeholder="Email" class="contact__input" />
-            <textarea
-              name=""
-              id=""
-              cols="0"
-              rows="10"
-              class="contact__input"
-            ></textarea>
-            <input
-              type="button"
-              value="Enviar"
-              class="contact__button button"
-            />
-          </form>
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="uil uil-envelope-share"></i>
+                  </div>
+                  <p class="info-text">sandunherath124@gmail.com</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="uil uil-phone-volume"></i>
+                  </div>
+                  <p class="info-text">071-9292914</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <h3 class="title">Contact me</h3>
+              <div class="row">
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="First Name"
+                />
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="Last Name"
+                />
+              </div>
+
+              <div class="row">
+                <input type="text" class="contact-input" placeholder="Phone" />
+                <input type="email" class="contact-input" placeholder="Email" />
+              </div>
+
+              <div class="row">
+                <textarea
+                  name="message"
+                  class="contact-input textarea"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <input
+                type="button"
+                value="Enviar"
+                class="contact__button button"
+              />
+            </div>
+          </div>
         </div>
       </section>
     </main>
@@ -367,10 +415,20 @@
     <!--===== FOOTER =====-->
     <footer class="footer">
       <p class="footer__title">Sandun</p>
+      <p class="Copyright_text">
+        Copyright&copy;2021 All rights reserved | Made by
+        <span class="me">Sandun Herath</span>
+      </p>
       <div class="footer__social">
-        <a href="#" class="footer__icon"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="footer__icon"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/sandunzz.herath" class="footer__icon"
+          ><i class="bx bxl-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/sandun_hetath/" class="footer__icon"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a href="https://twitter.com/i/flow/signup" class="footer__icon"
+          ><i class="bx bxl-twitter"></i
+        ></a>
       </div>
     </footer>
 
