@@ -381,6 +381,18 @@ img {
 .skills__vue {
   width: 90%;
 }
+.skills__laravel {
+  width: 85%;
+}
+.skills__node {
+  width: 85%;
+}
+.skills__mongo {
+  width: 80%;
+}
+.skills__sql {
+  width: 90%;
+}
 .skills__img {
   border-radius: 0.5rem;
 }
